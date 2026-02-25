@@ -68,10 +68,6 @@ body {
     text-align: center;
     background-image: url('castillo.99e84448.jpg');
     color: white;
-    background-size: cover;                 
-    background-position: center;            
-    background-repeat: no-repeat;           
-    background-attachment: fixed;
 }
 
 @media screen and (max-width: 1300px) {
@@ -88,4 +84,5 @@ body {
         justify-content: center;
         padding: 15px 0;
     }
+
 }
