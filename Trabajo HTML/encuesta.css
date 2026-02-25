@@ -131,7 +131,7 @@ select {
     font-family: 'Poppins', sans-serif;
 }
 
-.naranja {
+.negro {
     background-color: #777777;
     color: black;
     padding: 10px 20px;
@@ -143,6 +143,7 @@ select {
     margin-right: 10px;
 }
 
-.naranja:hover {
+.negro:hover {
     background-color: #777777;
+
 }
