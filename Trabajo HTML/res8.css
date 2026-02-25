@@ -1,0 +1,90 @@
+#logo {
+    position: absolute; 
+    top: 10px;          
+    left: 10px;         
+    width: 110px;       
+    height: auto;
+    z-index: 10;
+}
+
+header {
+    background-color: black; 
+    height: 122px;           
+    width: 100%;             
+    display: flex;          
+    align-items: center;     
+    justify-content: flex-end;
+}
+
+.menu-principal {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    display: block;
+}
+
+.item-desplegable {
+    position: relative;
+    margin-right: 100px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+}
+
+.item-desplegable:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.submenu a:hover {
+    background-color: gray;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    background-image: url('resident-evil-8-village-castle-chandelier-hofvy8qzbax3fqlp.jpg');
+    color: rgb(0, 0, 0);
+}
+
+.re8-container {
+    color:white;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+}
+
+.re8-container h1 {
+    text-align: center;
+}
+
+.re8-container h3 {
+    color: grey;
+}
+#videore8 {
+    position: absolute;
+    top: 350px; ;
+    left: 1000px;
+}

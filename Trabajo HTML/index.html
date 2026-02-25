@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="sgaming.css">
+    <title>SG GAMING</title>
+    <style>
+        .uno {
+            margin: 0 auto;
+            width: 800px;
+            height: 600px;
+            background-color: transparent; 
+            overflow: hidden;
+        }
+        .dos {
+            margin: auto;
+            width: 4000px; 
+            height: 600px;
+            display: flex;
+        }
+        .dos img {
+            width: 800px;
+            height: 600px;
+            object-fit: contain;
+            float: left;
+        }
+        .tres {  
+            animation: banner 20s linear infinite;      
+        }
+        @keyframes banner {
+            from { margin-left: 0px; }
+            to { margin-left: -3200px; }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="SC.png" id="logo">
+
+    <header>
+        <ul class="menu-principal">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            
+            <li class="item-desplegable">
+                <a href="#">Resident Evil ▼</a>
+                <ul class="submenu">
+                    <li><a href="re7.html">Resident Evil 7</a></li>
+                    <li><a href="re8.html">Resident Evil 8</a></li>
+                </ul>
+            </li>
+             <li class="item-desplegable">
+                <a href="#">Historia▼</a>
+                <ul class="submenu">
+                    <li><a href="historiaa7.html">Historia Resident Evil 7</a></li>
+                     <li><a href="historiaare8.html">Historia Resident Evil 8</a></li>
+                </ul>
+            </li>
+             <li class="item-desplegable">
+                <a href="#">Rankings ▼</a>
+                <ul class="submenu">
+                    <li><a href="reranking.html">Rankings Resident Evil</a></li>
+                    <li><a href="generalranking.html">Ranking General</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <h1>Bienvenido a SC Gaming</h1>
+    <h3>En esta web encontrarás tanto información de Resident Evil como rankings de los mejores videojuegos que he jugado en mi vida.</h3>
+
+    <div class="uno">
+        <div class="dos">
+            <img class="tres" src="pngwing.com.png">
+            <img src="pngaaa.com-465011.png">
+            <img src="pngaaa.com-2761246.png">
+            <img src="pngaaa.com-2761205.png">
+            <img src="pngwing.com (1).png">
+        </div>
+    </div>
+
+</body>
+</html>
